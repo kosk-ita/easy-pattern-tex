@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns>
+
+  <!-- dot patterns -->
+  <pattern type="dot" name="ドット小">
+    <size>8</size>
+    <spacing>30</spacing>
+  </pattern>
+  <pattern type="dot" name="ドット大">
+    <size>18</size>
+    <spacing>30</spacing>
+  </pattern>
+
+  <!-- stripe patterns -->
+  <pattern type="stripe" name="ストライプななめ(／)">
+    <lineWidth>18</lineWidth>
+    <spacing>30</spacing>
+    <angle>135</angle>
+  </pattern>
+<pattern type="stripe" name="ストライプななめ(＼)">
+<lineWidth>18</lineWidth>
+    <spacing>30</spacing>
+    <angle>45</angle>
+  </pattern>
+
+  <!-- vertical lines -->
+  <pattern type="vertical" name="ストライプたて">
+    <lineWidth>24</lineWidth>
+    <spacing>30</spacing>
+  </pattern>
+
+  <!-- horizontal lines -->
+  <pattern type="horizontal" name="ストライプよこ">
+    <lineWidth>24</lineWidth>
+    <spacing>30</spacing>
+  </pattern>
+
+  <!-- check -->
+  <pattern type="check" name="チェック">
+    <size>30</size>
+    <spacing>30</spacing>
+  </pattern>
+  <pattern type="diacheck" name="チェックななめ">
+    <size>12</size>
+    <spacing>28.284271247461900976033774484194</spacing>
+  </pattern>
+
+</patterns>

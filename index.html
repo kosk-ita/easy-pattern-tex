@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EasyPatternTex</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>EasyPatternTex</h1>
+
+  <section id="controls">
+    <label for="patternType">パターン:</label>
+    <select id="patternType"></select>
+
+    <div>
+      <label for="fgColorPreset">色:</label>
+      <select id="fgColorPreset"></select>
+      <div id="fgCustom" style="display:none;">
+        Color Picker: <input type="color" id="fgPicker" />
+        RGB: <input type="number" id="fgR" min="0" max="255" />
+             <input type="number" id="fgG" min="0" max="255" />
+             <input type="number" id="fgB" min="0" max="255" />
+        HEX: <input type="text" id="fgHex" placeholder="#000000" />
+      </div>
+    </div>
+
+    <div>
+      <label for="bgColorPreset">背景色:</label>
+      <select id="bgColorPreset"></select>
+      <div id="bgCustom" style="display:none;">
+        Color Picker: <input type="color" id="bgPicker" />
+        RGB: <input type="number" id="bgR" min="0" max="255" />
+             <input type="number" id="bgG" min="0" max="255" />
+             <input type="number" id="bgB" min="0" max="255" />
+        HEX: <input type="text" id="bgHex" placeholder="#FFFFFF" />
+      </div>
+    </div>
+  </section>
+
+  <section id="preview">
+    <canvas id="patternCanvas" width="120" height="120"></canvas>
+  </section>
+
+  <section id="output">
+    <button id="downloadBtn">PNGをダウンロード</button>
+    <button id="copyBtn">クリップボードにコピー</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
