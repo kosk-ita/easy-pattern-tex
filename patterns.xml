@@ -3,12 +3,12 @@
 
   <!-- dot patterns -->
   <pattern type="dot" name="ドット小">
-    <size>8</size>
-    <spacing>30</spacing>
+    <size>3</size>
+    <spacing>15</spacing>
   </pattern>
   <pattern type="dot" name="ドット大">
-    <size>18</size>
-    <spacing>30</spacing>
+    <size>6</size>
+    <spacing>15</spacing>
   </pattern>
 
   <!-- stripe patterns -->
@@ -37,12 +37,11 @@
 
   <!-- check -->
   <pattern type="check" name="チェック">
-    <size>30</size>
-    <spacing>30</spacing>
+    <spacing>20</spacing>
   </pattern>
   <pattern type="diacheck" name="チェックななめ">
-    <size>12</size>
-    <spacing>28.284271247461900976033774484194</spacing>
+    <spacing>30</spacing>
+
   </pattern>
 
 </patterns>

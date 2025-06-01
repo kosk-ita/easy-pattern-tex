@@ -13,28 +13,39 @@
     <label for="patternType">パターン:</label>
     <select id="patternType"></select>
 
+    <!-- ベース色選択 -->
     <div>
-      <label for="fgColorPreset">色:</label>
-      <select id="fgColorPreset"></select>
-      <div id="fgCustom" style="display:none;">
-        Color Picker: <input type="color" id="fgPicker" />
-        RGB: <input type="number" id="fgR" min="0" max="255" />
-             <input type="number" id="fgG" min="0" max="255" />
-             <input type="number" id="fgB" min="0" max="255" />
-        HEX: <input type="text" id="fgHex" placeholder="#000000" />
-      </div>
+        <label for="baseColorPreset">ベース色:</label>
+        <select id="baseColorPreset"></select>
+        <div id="baseCustom" style="display: none;">
+        Color Picker: <input type="color" id="basePicker" />
+        RGB: 
+            <input type="number" id="baseR" min="0" max="255" />
+            <input type="number" id="baseG" min="0" max="255" />
+            <input type="number" id="baseB" min="0" max="255" />
+        HEX:
+            <input type="text" id="baseHex" placeholder="#000000" />
+        </div>
     </div>
-
+    
+    <!-- アクセント色選択 -->
     <div>
-      <label for="bgColorPreset">背景色:</label>
-      <select id="bgColorPreset"></select>
-      <div id="bgCustom" style="display:none;">
-        Color Picker: <input type="color" id="bgPicker" />
-        RGB: <input type="number" id="bgR" min="0" max="255" />
-             <input type="number" id="bgG" min="0" max="255" />
-             <input type="number" id="bgB" min="0" max="255" />
-        HEX: <input type="text" id="bgHex" placeholder="#FFFFFF" />
-      </div>
+        <label for="accentColorPreset">アクセント色:</label>
+        <select id="accentColorPreset"></select>
+        <div id="accentCustom" style="display: none;">
+        Color Picker: <input type="color" id="accentPicker" />
+        RGB: 
+            <input type="number" id="accentR" min="0" max="255" />
+            <input type="number" id="accentG" min="0" max="255" />
+            <input type="number" id="accentB" min="0" max="255" />
+        HEX:
+            <input type="text" id="accentHex" placeholder="#FFFFFF" />
+        </div>
+    </div>
+    <div>
+      <label for="scaleSlider">スケーリング:</label>
+      <input type="range" id="scaleSlider" min="0.5" max="1.5" step="0.05" value="1.00" />
+      <span id="scaleValue">1.00</span>
     </div>
   </section>
 

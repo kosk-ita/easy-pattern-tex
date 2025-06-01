@@ -11,6 +11,7 @@ body {
     border: 1px solid #ccc;
     display: block;
     margin: 1em 0;
+    transform-origin: 0 0;
   }
   label {
     display: block;
@@ -20,4 +21,3 @@ body {
   input, select {
     margin: 0.2em 0.5em 0.2em 0;
   }
-  

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colors>
+  <!-- ベース色（旧:前景色） -->
+  <base-colors>
+    <color id="light_pink">
+        <label>明るいピンク</label>
+        <rgb>255,202,191</rgb>
+        <hex>#FF2000</hex>
+    </color>
+    <color id="cream">
+        <label>クリーム</label>
+        <rgb>255,255,128</rgb>
+        <hex>#FF2000</hex>
+    </color>
+    <color id="light_yelow_green">
+        <label>明るい黄緑</label>
+        <rgb>216,242,85</rgb>
+        <hex>#FF2000</hex>
+    </color>
+    <color id="light_sky">
+        <label>明るい空色</label>
+        <rgb>191,228,255</rgb>
+        <hex>#FF2000</hex>
+    </color>
+    <color id="beige">
+        <label>ベージュ</label>
+        <rgb>255,202,128</rgb>
+        <hex>#FF2000</hex>
+    </color>
+    <color id="light_green">
+        <label>明るい緑</label>
+        <rgb>119,217,168</rgb>
+        <hex>#FF2000</hex>
+    </color>
+    <color id="light_purple">
+        <label>明るい紫</label>
+        <rgb>201,172,230</rgb>
+        <hex>#FF2000</hex>
+    </color>
+  </base-colors>
+  <accent-colors>
+    <!-- カスタム指定・無彩色のみ残す -->
+    <color id="white">
+        <label>白</label>
+        <rgb>255,255,255</rgb>
+        <hex>#FFFFFF</hex>
+    </color>
+    <color id="custom">
+        <label>カスタム指定…</label>
+        <rgb>0,0,0</rgb>
+        <hex>#000000</hex>
+    </color>
+  </accent-colors>
+</colors>
